@@ -12,6 +12,7 @@
 		B643F2D61D5D920700842A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B643F2D41D5D920700842A8E /* Main.storyboard */; };
 		B643F2D81D5D920700842A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B643F2D71D5D920700842A8E /* Assets.xcassets */; };
 		B643F2DB1D5D920800842A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B643F2D91D5D920800842A8E /* LaunchScreen.storyboard */; };
+		B6750CFD1D5D94FD00590863 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = B6750CFC1D5D94FD00590863 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B643F2D71D5D920700842A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B643F2DA1D5D920800842A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B643F2DC1D5D920800842A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6750CFC1D5D94FD00590863 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B643F2D21D5D920700842A8E /* ViewController.swift */,
 				B643F2D41D5D920700842A8E /* Main.storyboard */,
 				B643F2D71D5D920700842A8E /* Assets.xcassets */,
+				B6750CFC1D5D94FD00590863 /* pokemon.csv */,
 				B643F2D91D5D920800842A8E /* LaunchScreen.storyboard */,
 				B643F2DC1D5D920800842A8E /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				B643F2DB1D5D920800842A8E /* LaunchScreen.storyboard in Resources */,
 				B643F2D81D5D920700842A8E /* Assets.xcassets in Resources */,
+				B6750CFD1D5D94FD00590863 /* pokemon.csv in Resources */,
 				B643F2D61D5D920700842A8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				B643F2E11D5D920800842A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
